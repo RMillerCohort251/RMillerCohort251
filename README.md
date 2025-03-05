@@ -37,7 +37,7 @@ Here are a few fun things about me:
 
 ## Photo Gallery
 
-<img src="/IMAGES/CD7FDAF2-6835-4DA5-8A50-75EFA07E04CB.JPEG"> 
+<img src="/Images/CD7FDAF2-6835-4DA5-8A50-75EFA07E04CB.JPEG> 
 
 <img src="/IMAGES/EMC01446.jpg">
 
