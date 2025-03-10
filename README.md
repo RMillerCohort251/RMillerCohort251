@@ -1,3 +1,23 @@
+<div class="slideshow">
+  <img src="./Images/CD7FDAF2-6835-4DA5-8A50-75EFA07E04CB.JPEG" width="600">
+  <img src="/Images/DronePic.jpg" width="600">
+</div>
+
+<style>
+  .slideshow img {
+    display: none;
+    animation: fade 3s infinite;
+  }
+  .slideshow img:first-child {
+    display: block;
+  }
+  @keyframes fade {
+    0%, 100% { display: block; }
+    33% { display: none; }
+  }
+</style>
+
+
 # Rasheed Miller README
 
 ## About Me
