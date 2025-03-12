@@ -53,6 +53,69 @@
     background-color: #111;
 }
 
+/* Apply a smooth fade-in effect */
+.animated-header {
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background: linear-gradient(90deg, #ff6b6b, #6b66ff, #00d2ff);
+    background-size: 300% 300%;
+    animation: fadeIn 2s ease-in-out, moveGradient 6s infinite alternate;
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Moving gradient background */
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Glowing text effect */
+.animated-header h1 {
+    font-size: 2.5em;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6),
+                 0 0 10px rgba(255, 255, 255, 0.5),
+                 0 0 15px rgba(255, 255, 255, 0.4);
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+/* Glow effect */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                     0 0 20px rgba(255, 255, 255, 0.6);
+    }
+    to {
+        text-shadow: 0 0 15px rgba(255, 255, 255, 1),
+                     0 0 25px rgba(255, 255, 255, 0.9);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .animated-header {
+        padding: 30px;
+    }
+    .animated-header h1 {
+        font-size: 2em;
+    }
+}
+        
 .slideshow {
     width: 55vw; /* Adjust as needed */
     overflow: hidden;
