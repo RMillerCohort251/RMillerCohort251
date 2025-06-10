@@ -24,7 +24,7 @@ When it comes to working with me, here are a few things to keep in mind:
 
 ## Contact
 
-Feel free to email me if you'd like to schedule a one-on-one **Zoom Call**.
+Feel free to email me if you'd like to schedule a one-on-one.
 
 ## Fun Facts
 
